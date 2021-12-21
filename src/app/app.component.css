@@ -12,7 +12,19 @@
 }
 
 .nav-button:hover:not(.mat-raised-button) {
-    background: rgba(0,0,0,.4);
+    background: rgba(0,0,0,.3);
+}
+
+.nav-button:hover.mat-raised-button {
+    transform: scale(1.05);
+    transition-duration: 500ms;
+    transition-property: transform;
+}
+
+.nav-button:not(:hover).mat-raised-button {
+    transform: scale(1);
+    transition-duration: 1s;
+    transition-property: transform;
 }
 
 .nav-spacer {
