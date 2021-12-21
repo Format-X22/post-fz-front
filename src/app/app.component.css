@@ -1,0 +1,20 @@
+.nav-title {
+    margin-right: 10px;
+    font-size: 20px;
+}
+
+.nav-button {
+    margin-left: 10px;
+}
+
+.nav-button:focus:not(.mat-raised-button) {
+    background: rgba(0,0,0,.2);
+}
+
+.nav-button:hover:not(.mat-raised-button) {
+    background: rgba(0,0,0,.4);
+}
+
+.nav-spacer {
+    flex: 1 1 auto;
+}
