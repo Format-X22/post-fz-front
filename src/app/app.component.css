@@ -1,3 +1,12 @@
+.nav-bar {
+    position: fixed;
+    z-index: 100;
+}
+
+.nav-bar-padding {
+    padding-bottom: 64px;
+}
+
 .nav-title {
     margin-right: 10px;
     font-size: 20px;

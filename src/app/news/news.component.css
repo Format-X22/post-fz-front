@@ -1,0 +1,11 @@
+.news-wrapper {
+    padding-top: 20px;
+    padding-bottom: 50px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.news-card {
+    width: 500px;
+}

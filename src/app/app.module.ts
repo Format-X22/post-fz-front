@@ -5,10 +5,12 @@ import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatToolbarModule } from '@angular/material/toolbar';
 import { MatButtonModule } from '@angular/material/button';
+import { NewsComponent } from './news/news.component';
+import { MatCardModule } from '@angular/material/card';
 
 @NgModule({
-    declarations: [AppComponent],
-    imports: [BrowserModule, BrowserAnimationsModule, MatToolbarModule, MatButtonModule],
+    declarations: [AppComponent, NewsComponent],
+    imports: [BrowserModule, BrowserAnimationsModule, MatToolbarModule, MatButtonModule, MatCardModule],
     providers: [],
     bootstrap: [AppComponent],
 })
