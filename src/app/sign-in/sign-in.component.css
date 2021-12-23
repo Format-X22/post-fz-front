@@ -1,0 +1,53 @@
+.sign-in-wrapper {
+    padding-top: 20px;
+    padding-bottom: 50px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.sign-in-card {
+    width: 300px;
+}
+
+.sign-in-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sign-in-actions {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sign-in-button {
+    width: 100px;
+}
+
+.sign-in-field {
+    width: 92%;
+    padding-left: 4%;
+}
+
+.sign-in-social-wrapper {
+    margin-top: 20px;
+}
+
+.sign-in-social-title {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.sign-in-social-icons {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+}
+
+.sing-in-social-icon {
+    cursor: pointer;
+    flex: 1;
+    font-size: 50px;
+}

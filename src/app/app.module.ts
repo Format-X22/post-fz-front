@@ -7,10 +7,45 @@ import { MatToolbarModule } from '@angular/material/toolbar';
 import { MatButtonModule } from '@angular/material/button';
 import { NewsComponent } from './news/news.component';
 import { MatCardModule } from '@angular/material/card';
+import { AppRoutingModule } from './app-routing.module';
+import { NavigationComponent } from './navigation/navigation.component';
+import { MainComponent } from './main/main.component';
+import { ChatsComponent } from './chats/chats.component';
+import { SettingsComponent } from './settings/settings.component';
+import { SignInComponent } from './sign-in/sign-in.component';
+import { CreateAccountComponent } from './create-account/create-account.component';
+import { QuestsComponent } from './quests/quests.component';
+import { MatFormFieldModule } from '@angular/material/form-field';
+import { MatInputModule } from '@angular/material/input';
+import { MatIconModule } from '@angular/material/icon';
+import { MatDividerModule } from '@angular/material/divider';
+import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 
 @NgModule({
-    declarations: [AppComponent, NewsComponent],
-    imports: [BrowserModule, BrowserAnimationsModule, MatToolbarModule, MatButtonModule, MatCardModule],
+    declarations: [
+        AppComponent,
+        NewsComponent,
+        NavigationComponent,
+        MainComponent,
+        ChatsComponent,
+        SettingsComponent,
+        SignInComponent,
+        CreateAccountComponent,
+        QuestsComponent,
+    ],
+    imports: [
+        BrowserModule,
+        BrowserAnimationsModule,
+        MatToolbarModule,
+        MatButtonModule,
+        MatCardModule,
+        AppRoutingModule,
+        MatFormFieldModule,
+        MatInputModule,
+        MatIconModule,
+        MatDividerModule,
+        FontAwesomeModule,
+    ],
     providers: [],
     bootstrap: [AppComponent],
 })
