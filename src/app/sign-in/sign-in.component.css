@@ -26,6 +26,18 @@
     width: 100px;
 }
 
+.sign-in-button:hover {
+    transform: scale(1.05);
+    transition-duration: 500ms;
+    transition-property: transform;
+}
+
+.sign-in-button:not(:hover) {
+    transform: scale(1);
+    transition-duration: 1s;
+    transition-property: transform;
+}
+
 .sign-in-field {
     width: 92%;
     padding-left: 4%;
@@ -50,4 +62,16 @@
     cursor: pointer;
     flex: 1;
     font-size: 50px;
+}
+
+.sing-in-social-icon:hover {
+    transform: scale(1.05);
+    transition-duration: 500ms;
+    transition-property: transform;
+}
+
+.sing-in-social-icon:not(:hover) {
+    transform: scale(1);
+    transition-duration: 1s;
+    transition-property: transform;
 }

@@ -1,0 +1,85 @@
+.create-account-wrapper {
+    padding-top: 20px;
+    padding-bottom: 50px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.create-account-card {
+    width: 500px;
+}
+
+.create-account-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.create-account-variants {
+    display: flex;
+    flex-direction: row;
+}
+
+.create-account-classic {
+    width: 300px;
+}
+
+.create-account-social {
+    width: 200px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.create-account-divider {
+    height: 100%;
+    flex: 0.3;
+    margin-right: 10px;
+}
+
+.create-account-actions {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.create-account-button {
+    width: 100px;
+}
+
+.create-account-button:hover {
+    transform: scale(1.05);
+    transition-duration: 500ms;
+    transition-property: transform;
+}
+
+.create-account-button:not(:hover) {
+    transform: scale(1);
+    transition-duration: 1s;
+    transition-property: transform;
+}
+
+.create-account-field {
+    width: 92%;
+    padding-left: 4%;
+}
+
+.create-account-social-wrapper {
+    margin-top: 0;
+    flex: 1;
+}
+
+.create-account-social-icons {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    flex: 1;
+}
+
+.sing-in-social-icon {
+    cursor: pointer;
+    flex: 1;
+    font-size: 50px;
+    margin-bottom: 20px;
+}
