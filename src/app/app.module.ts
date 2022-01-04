@@ -21,6 +21,7 @@ import { MatIconModule } from '@angular/material/icon';
 import { MatDividerModule } from '@angular/material/divider';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { ScrollingModule } from '@angular/cdk/scrolling';
+import { RestorePasswordComponent } from './restore-password/restore-password.component';
 
 @NgModule({
     declarations: [
@@ -33,6 +34,7 @@ import { ScrollingModule } from '@angular/cdk/scrolling';
         SignInComponent,
         CreateAccountComponent,
         QuestsComponent,
+        RestorePasswordComponent,
     ],
     imports: [
         BrowserModule,

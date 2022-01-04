@@ -16,18 +16,22 @@
             </mat-form-field>
             <div class="sign-in-actions">
                 <button mat-raised-button color="accent" class="sign-in-button">Войти</button>
+                <a routerLink='/restore-password' mat-button class='sign-in-actions-restore'>Забыли пароль?</a>
             </div>
-            <div class="sign-in-social-wrapper">
+            <div class="sign-in-actions">
+
+            </div>
+            <div class="sign-in-social">
                 <mat-divider></mat-divider>
-                <div class="sign-in-social-title">Или через соцсети</div>
+                <div class="sign-in-social-title">Или войти через соцсети</div>
                 <div class="sign-in-social-icons">
-                    <button mat-button color="primary" class="sing-in-social-icon">
+                    <button mat-button color="primary" class="sign-in-social-icon">
                         <fa-icon [icon]="faTelegram"></fa-icon>
                     </button>
-                    <button mat-button color="primary" class="sing-in-social-icon">
+                    <button mat-button color="primary" class="sign-in-social-icon">
                         <fa-icon [icon]="faVk"></fa-icon>
                     </button>
-                    <button mat-button color="primary" class="sing-in-social-icon">
+                    <button mat-button color="primary" class="sign-in-social-icon">
                         <fa-icon [icon]="faFacebook"></fa-icon>
                     </button>
                 </div>

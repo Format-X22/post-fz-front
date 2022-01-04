@@ -20,6 +20,12 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+
+    &-restore {
+        margin-top: 5px;
+        font-size: 75%;
+        line-height: 30px;
+    }
 }
 
 .sign-in-button {
@@ -43,35 +49,35 @@
     padding-left: 4%;
 }
 
-.sign-in-social-wrapper {
-    margin-top: 20px;
-}
+.sign-in-social {
+    margin-top: 5px;
 
-.sign-in-social-title {
-    padding-top: 20px;
-    padding-bottom: 20px;
-}
+    &-title {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
 
-.sign-in-social-icons {
-    display: flex;
-    flex-direction: row;
-    text-align: center;
-}
+    &-icons {
+        display: flex;
+        flex-direction: row;
+        text-align: center;
+    }
 
-.sing-in-social-icon {
-    cursor: pointer;
-    flex: 1;
-    font-size: 50px;
-}
+    &-icon {
+        cursor: pointer;
+        flex: 1;
+        font-size: 50px;
+    }
 
-.sing-in-social-icon:hover {
-    transform: scale(1.05);
-    transition-duration: 500ms;
-    transition-property: transform;
-}
+    &-icon:hover {
+        transform: scale(1.05);
+        transition-duration: 500ms;
+        transition-property: transform;
+    }
 
-.sing-in-social-icon:not(:hover) {
-    transform: scale(1);
-    transition-duration: 1s;
-    transition-property: transform;
+    &-icon:not(:hover) {
+        transform: scale(1);
+        transition-duration: 1s;
+        transition-property: transform;
+    }
 }

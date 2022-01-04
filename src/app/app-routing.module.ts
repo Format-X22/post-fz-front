@@ -8,6 +8,7 @@ import { SettingsComponent } from './settings/settings.component';
 import { SignInComponent } from './sign-in/sign-in.component';
 import { CreateAccountComponent } from './create-account/create-account.component';
 import { MainComponent } from './main/main.component';
+import { RestorePasswordComponent } from './restore-password/restore-password.component';
 
 const routes: Routes = [
     { path: '', component: MainComponent },
@@ -17,6 +18,7 @@ const routes: Routes = [
     { path: 'settings', component: SettingsComponent },
     { path: 'sign-in', component: SignInComponent },
     { path: 'create-account', component: CreateAccountComponent },
+    { path: 'restore-password', component: RestorePasswordComponent },
 ];
 
 @NgModule({
